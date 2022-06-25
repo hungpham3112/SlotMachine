@@ -11,6 +11,7 @@ from lib import *
 
 def main():
     file = "saved_money.txt"
+    is_save_file_exist(file)
     if not isempty(file):
         while True:
             user_choice = input(
@@ -20,6 +21,7 @@ Found ${read_money(file)} from the last play, do you want to continue? (Y)es or 
             match user_choice.lower():
                 case "y" | "yes":
                     current_money = float(read_money(file))
+                    print(instruction(current_money))
                     engine(current_money)
                     break
                 case "n" | "no":

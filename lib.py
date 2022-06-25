@@ -83,6 +83,11 @@ Choose one of the following menu options:
 ##############################
 ########### Utils ############
 ##############################
+def is_save_file_exist(file):
+    with open(file, "a") as _:
+        pass
+
+
 def clear():
     return os.system("cls")
 
