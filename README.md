@@ -1,10 +1,10 @@
-# Simple_slot_machine 🎰
+# 🎰 SlotMachine
 
-## Introduction 🃏
+## 🃏 Introduction
 
 This is a simulation of simple casino slot machine.
 
-## How to play 🎮
+## 🎮 How to play
 
 ```txt
 You start with $10
@@ -14,20 +14,18 @@ If have two similar numbers, you will earn 50 cents.
 If have three similar numbers, you will earn $10.
 ```
 
-## Prerequisite 🐍
+## 🐍 Prerequisite
 
 Python >= 3.10
 
-## Installation 🚀
+## 🚀 Installation
 
-Clone the repo:
+Clone the repo and run main.py:
 
-```sh
+```pwsh
 git clone https://github.com/hungpham3112/Simple_slot_machine.git && cd Simple_slot_machine
-```
-
-Run main.py:
-
-```python
 python main.py
 ```
+
+## Licenses
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
